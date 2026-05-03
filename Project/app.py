@@ -60,7 +60,7 @@ def main():
     
     # Sidebar for API Key
     st.sidebar.header("Configuration")
-    api_key = st.sidebar.text_input("Enter your Google Gemini API Key:", value="AIzaSyDvb_xBxRRORIU4pDHn0YxZGZgHEWDz_yk", type="password")
+    api_key = st.sidebar.text_input("Enter your Google Gemini API Key:", value="API KEY", type="password")
     st.sidebar.markdown("[Get your free API key here](https://aistudio.google.com/app/apikey)")
     
     # Load data (cached)
